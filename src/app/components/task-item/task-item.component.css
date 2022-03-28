@@ -1,0 +1,10 @@
+.task-item {
+  display: flex;
+  align-items: center;
+}
+.deleteBtn {
+  margin-left: 20px;
+}
+.reminder {
+  border-left: 5px solid green;
+}

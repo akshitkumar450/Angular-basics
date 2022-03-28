@@ -1,0 +1,9 @@
+<div class="header-container">
+  <p class="title-tag">{{ title }}</p>
+  <!-- passing values as props to Button component -->
+  <app-button
+    color="blue"
+    text="Add Tracker"
+    (btnClick)="toggleAddtask()"
+  ></app-button>
+</div>
